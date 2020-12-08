@@ -22,8 +22,8 @@
           </v-btn>
         </template>
         <v-list>
-          <v-list-item><v-list-item-title>HOME</v-list-item-title></v-list-item>
-          <v-list-item><v-list-item-title>LOGOUT</v-list-item-title></v-list-item>
+          <v-list-item style="cursor:pointer;"><v-list-item-title>HOME</v-list-item-title></v-list-item>
+          <v-list-item style="cursor:pointer;"><v-list-item-title>LOGOUT</v-list-item-title></v-list-item>
         </v-list>
       </v-menu>
     </v-app-bar>
@@ -57,6 +57,11 @@
       group: null,
       items: [
             { title: 'HOME', icon: 'mdi-home-city', route: '/'},
+            { title: 'FOOD', icon: 'mdi-food', route: '/food'},
+            { title: 'KITCHEN', icon: 'mdi-silverware-clean', route: '/kitchen'},
+            { title: 'BEAUTY', icon: 'mdi-lipstick', route: '/beauty'},
+            { title: 'HEALTH', icon: 'mdi-arm-flex-outline', route: '/health'},
+            { title: 'FASHION', icon: 'mdi-bag-checked', route: '/fashion'},
       ],
     }),
 
